@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01569C701DCFDBB500A5065F /* doctor.png in Resources */ = {isa = PBXBuildFile; fileRef = 01569C6F1DCFDBB500A5065F /* doctor.png */; };
+		01569C721DCFDC1A00A5065F /* 14045578_10209641916020753_5811974679750493562_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01569C711DCFDC1A00A5065F /* 14045578_10209641916020753_5811974679750493562_n.jpg */; };
 		01B9C8DC1DC6718600FDE7BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9C8DB1DC6718600FDE7BB /* AppDelegate.swift */; };
 		01B9C8DE1DC6718600FDE7BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9C8DD1DC6718600FDE7BB /* ViewController.swift */; };
 		01B9C8E11DC6718600FDE7BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B9C8DF1DC6718600FDE7BB /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01569C6F1DCFDBB500A5065F /* doctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = doctor.png; path = ../../../../Downloads/doctor.png; sourceTree = "<group>"; };
+		01569C711DCFDC1A00A5065F /* 14045578_10209641916020753_5811974679750493562_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 14045578_10209641916020753_5811974679750493562_n.jpg; path = ../../../../Downloads/14045578_10209641916020753_5811974679750493562_n.jpg; sourceTree = "<group>"; };
 		01B9C8D81DC6718600FDE7BB /* SDP_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDP_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B9C8DB1DC6718600FDE7BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01B9C8DD1DC6718600FDE7BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 		01B9C8DA1DC6718600FDE7BB /* SDP_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				01569C711DCFDC1A00A5065F /* 14045578_10209641916020753_5811974679750493562_n.jpg */,
+				01569C6F1DCFDBB500A5065F /* doctor.png */,
 				01B9C8DB1DC6718600FDE7BB /* AppDelegate.swift */,
 				01B9C8DD1DC6718600FDE7BB /* ViewController.swift */,
 				01B9C8DF1DC6718600FDE7BB /* Main.storyboard */,
@@ -232,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01569C701DCFDBB500A5065F /* doctor.png in Resources */,
+				01569C721DCFDC1A00A5065F /* 14045578_10209641916020753_5811974679750493562_n.jpg in Resources */,
 				01B9C8E61DC6718600FDE7BB /* LaunchScreen.storyboard in Resources */,
 				01B9C8E31DC6718600FDE7BB /* Assets.xcassets in Resources */,
 				01B9C8E11DC6718600FDE7BB /* Main.storyboard in Resources */,
@@ -505,6 +513,7 @@
 				01B9C9021DC6718600FDE7BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01B9C9031DC6718600FDE7BB /* Build configuration list for PBXNativeTarget "SDP_SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				01B9C9051DC6718600FDE7BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01B9C9061DC6718600FDE7BB /* Build configuration list for PBXNativeTarget "SDP_SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				01B9C9081DC6718600FDE7BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
