@@ -138,12 +138,12 @@
         <!--New User-->
         <scene sceneID="arb-9M-wWs">
             <objects>
-                <viewController title="New User" id="A1Z-Nb-U6p" sceneMemberID="viewController">
+                <viewController title="New User" id="A1Z-Nb-U6p" customClass="RegisterPageViewController" customModule="SDP_Swift" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vGS-xl-Tfk"/>
                         <viewControllerLayoutGuide type="bottom" id="hEg-tJ-zag"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="2ya-yT-wKJ" customClass="Regist">
+                    <view key="view" contentMode="scaleToFill" id="2ya-yT-wKJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -176,10 +176,18 @@
                                 <state key="normal" title="Register">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="register:" destination="A1Z-Nb-U6p" eventType="touchUpInside" id="FbF-Iu-c4K"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="newUserEmail" destination="FUC-rL-Hy6" id="5NF-0Q-nCy"/>
+                        <outlet property="newUserPwd" destination="FUC-rL-Hy6" id="Au5-vz-gUj"/>
+                        <outlet property="newUserPwdConfirm" destination="Yto-N6-Rgg" id="7lz-sX-wHi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zmz-VN-Z9M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
