@@ -17,6 +17,8 @@
 		01B9C8E61DC6718600FDE7BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B9C8E41DC6718600FDE7BB /* LaunchScreen.storyboard */; };
 		01B9C8F11DC6718600FDE7BB /* SDP_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9C8F01DC6718600FDE7BB /* SDP_SwiftTests.swift */; };
 		01B9C8FC1DC6718600FDE7BB /* SDP_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9C8FB1DC6718600FDE7BB /* SDP_SwiftUITests.swift */; };
+		B76C467E1DF35CB2005C9141 /* GetAllPatients.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76C467D1DF35CB2005C9141 /* GetAllPatients.swift */; };
+		B76C46801DF35F0F005C9141 /* ShowAllPatients.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76C467F1DF35F0F005C9141 /* ShowAllPatients.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +43,7 @@
 		01569C711DCFDC1A00A5065F /* 14045578_10209641916020753_5811974679750493562_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 14045578_10209641916020753_5811974679750493562_n.jpg; path = ../../../../Downloads/14045578_10209641916020753_5811974679750493562_n.jpg; sourceTree = "<group>"; };
 		01569C741DD101C100A5065F /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		0158B4D51DF0CE2B001AE49F /* SDP_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDP_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
-		0158B4D81DF0CFEF001AE49F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0158B4D81DF0CFEF001AE49F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; };
 		01B9C8D81DC6718600FDE7BB /* SDP_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDP_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B9C8DB1DC6718600FDE7BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01B9C8E01DC6718600FDE7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,8 @@
 		01B9C8F71DC6718600FDE7BB /* SDP_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDP_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B9C8FB1DC6718600FDE7BB /* SDP_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDP_SwiftUITests.swift; sourceTree = "<group>"; };
 		01B9C8FD1DC6718600FDE7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76C467D1DF35CB2005C9141 /* GetAllPatients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAllPatients.swift; sourceTree = "<group>"; };
+		B76C467F1DF35F0F005C9141 /* ShowAllPatients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowAllPatients.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 				01569C741DD101C100A5065F /* RegisterPageViewController.swift */,
 				0158B4D51DF0CE2B001AE49F /* SDP_Swift-Bridging-Header.h */,
 				0158B4D81DF0CFEF001AE49F /* ViewController.swift */,
+				B76C467D1DF35CB2005C9141 /* GetAllPatients.swift */,
+				B76C467F1DF35F0F005C9141 /* ShowAllPatients.swift */,
 			);
 			path = SDP_Swift;
 			sourceTree = "<group>";
@@ -273,6 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B76C46801DF35F0F005C9141 /* ShowAllPatients.swift in Sources */,
+				B76C467E1DF35CB2005C9141 /* GetAllPatients.swift in Sources */,
 				0158B4D91DF0CFEF001AE49F /* ViewController.swift in Sources */,
 				01B9C8DC1DC6718600FDE7BB /* AppDelegate.swift in Sources */,
 				01569C751DD101C100A5065F /* RegisterPageViewController.swift in Sources */,
