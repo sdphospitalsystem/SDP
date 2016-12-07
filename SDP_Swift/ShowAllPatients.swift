@@ -62,7 +62,7 @@ class ShowAllPatients: NSObject, URLSessionDataDelegate {
         var jsonResult: NSMutableArray = NSMutableArray()
         
         do{
-            jsonResult = try JSONSerialization.jsonObject(with: self.data as Data, options:JSONSerialization.ReadingOptions.allowFragments) as! NSMutableArray
+            jsonResult = try (JSONSerialization.jsonObject(with: self.data as Data, options:JSONSerialization.ReadingOptions.allowFragments) as AnyObject).mutableCopy() as! NSMutableArray
             
         } catch let error as NSError {
             print(error)

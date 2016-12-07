@@ -24,8 +24,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         // Set delegates and initialize ShowAllPatients
         
-        self.listTableView.delegate = self
-        self.listTableView.dataSource = self
+//        self.listTableView.delegate = self
+//        self.listTableView.dataSource = self
         
         let showAllPatients = ShowAllPatients()
         showAllPatients.delegate = self
@@ -34,7 +34,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func itemsDownloaded(items: NSArray) {
         feedItems = items
-        self.listTableView.reloadData()
+//        self.listTableView.reloadData()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
