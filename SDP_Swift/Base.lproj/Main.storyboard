@@ -681,7 +681,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="77Q-bm-yiI" id="Ffo-9E-CXM">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -691,7 +691,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="listTableView" destination="77Q-bm-yiI" id="kMX-B3-A25"/>
+                        <outlet property="listTableView" destination="70E-na-Qqs" id="9J7-m6-Wew"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h7L-7x-iZO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -729,7 +729,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="14045578_10209641916020753_5811974679750493562_n.jpg" width="960" height="960"/>
-        <image name="doctor.png" width="383" height="456"/>
+        <image name="14045578_10209641916020753_5811974679750493562_n.jpg" width="800" height="800"/>
+        <image name="doctor.png" width="268" height="320"/>
     </resources>
 </document>
