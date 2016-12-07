@@ -31,7 +31,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="fB0-SE-pmb" kind="show" id="OgQ-X6-pbz"/>
+                                    <segue destination="fB0-SE-pmb" kind="show" identifier="doctor" id="OgQ-X6-pbz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v7O-je-mLI">
@@ -84,6 +84,8 @@
                         <gestureRecognizers/>
                     </view>
                     <navigationItem key="navigationItem" title="Main Menu" id="U53-e2-4Ky"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -124,7 +126,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="aMV-YC-ogF" kind="show" id="SgN-Q3-0RF"/>
+                                    <segue destination="aMV-YC-ogF" kind="show" identifier="patientlogin" id="SgN-Q3-0RF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -248,7 +250,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="oY5-TB-NoJ" kind="show" id="cty-c1-8ly"/>
+                                    <segue destination="oY5-TB-NoJ" kind="show" identifier="aboutme" id="cty-c1-8ly"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFO-bA-2Ld">
@@ -261,7 +263,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="q6c-U3-Dee" kind="show" id="rnX-Rc-8qy"/>
+                                    <segue destination="q6c-U3-Dee" kind="show" identifier="vitals" id="rnX-Rc-8qy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPz-SO-hWc">
@@ -274,7 +276,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Udr-dE-2pk" kind="show" id="bPp-Zf-Ujz"/>
+                                    <segue destination="Udr-dE-2pk" kind="show" identifier="appointments" id="bPp-Zf-Ujz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKf-r7-CKU">
@@ -287,7 +289,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1l4-y5-nRy" kind="show" id="Tib-Kg-MsG"/>
+                                    <segue destination="1l4-y5-nRy" kind="show" identifier="contactdoctor" id="Tib-Kg-MsG"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="14045578_10209641916020753_5811974679750493562_n.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="O4k-Kd-2Sm">
@@ -517,7 +519,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="5R0-8b-f3k" kind="show" id="bzg-Ah-3nh"/>
+                                    <segue destination="5R0-8b-f3k" kind="show" identifier="doctorlogin" id="bzg-Ah-3nh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -565,7 +567,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="fHr-pJ-mMR" kind="show" id="NZH-tj-Jig"/>
+                                    <segue destination="fHr-pJ-mMR" kind="show" identifier="mypatients" id="NZH-tj-Jig"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKe-XZ-dJd">
@@ -578,7 +580,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="uRS-1n-KgP" kind="show" id="7kc-pJ-HSN"/>
+                                    <segue destination="uRS-1n-KgP" kind="show" identifier="allpatients" id="7kc-pJ-HSN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jOl-iS-kTW">
@@ -601,7 +603,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="rGp-tf-zgS" kind="show" id="F3c-lE-zCy"/>
+                                    <segue destination="rGp-tf-zgS" kind="show" identifier="hospitaldirectory" id="F3c-lE-zCy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zln-UE-MB5">
@@ -677,15 +679,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="77Q-bm-yiI">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BasicCell" id="77Q-bm-yiI">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="77Q-bm-yiI" id="Ffo-9E-CXM">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <sections/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

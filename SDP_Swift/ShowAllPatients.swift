@@ -39,12 +39,15 @@ class ShowAllPatients: NSObject, URLSessionDataDelegate {
         
     }
     
-    func urlSession(_ session: URLSession, dataTask: URLSessionDataTask, didReceiveData data: NSData) {
+    
+    @objc(URLSession:dataTask:didReceiveData:)
+    func urlSession(_ session: URLSession, dataTask: URLSessionDataTask, didReceive data: Data) {
         self.data.append(data as Data);
         
     }
     
-    func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: NSError?) {
+    @objc(URLSession:task:didCompleteWithError:)
+    func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {
         if error != nil {
             print("Failed to download data")
         }else {
