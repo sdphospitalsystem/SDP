@@ -51,7 +51,6 @@ class ShowAllPatients: NSObject, URLSessionDataDelegate {
         if error != nil {
             print("Failed to download data")
         }else {
-            print("Data downloaded:\nPID:1, PRFID:ac 56 5e 6d, PPassword:password0001, PName:John Doe, PSex:Male, Address:1 Storrs Rd., HeartRate:0, BodyTemp:0, DateAdmitted:2016-10-31 00:00:00, PRID:1, PRoomType:Regular\nPID:2, PRFID:1002, PPassword:password0002, PName:Mary Smith, PSex:Female, Address:2 Storrs Rd., HeartRate:0, BodyTemp:0, DateAdmitted:2016-10-31 00:00:00, PRID:2, PRoomType:Emergency")
             self.parseJSON()
         }
         
@@ -78,9 +77,9 @@ class ShowAllPatients: NSObject, URLSessionDataDelegate {
             jsonElement = jsonResult[i] as! NSDictionary
             
             let location = GetAllPatients()
-            
+
             //the following insures none of the JsonElement values are nil through optional binding
-            if let PID = jsonElement["PID"] as? Int,
+            if let PID = jsonElement["PID"] as? String,
                 let PRFID = jsonElement["PRFID"] as? String,
                 let PPassword = jsonElement["PPassword"] as? String,
                 let PName = jsonElement["PName"] as? String
@@ -94,6 +93,7 @@ class ShowAllPatients: NSObject, URLSessionDataDelegate {
             }
             
             locations.add(location)
+            print(location)
             
         }
         

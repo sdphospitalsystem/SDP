@@ -11,7 +11,7 @@ import Foundation
 class GetAllPatients: NSObject {
     
     //properties
-    var PID: Int?
+    var PID: String?
     var PRFID: String?
     var PPassword: String?
     var PName: String?
@@ -26,7 +26,7 @@ class GetAllPatients: NSObject {
     
     //construct with @name, @address, @latitude, and @longitude parameters
     
-    init(PID: Int, PRFID: String, PPassword: String, PName: String) {
+    init(PID: String, PRFID: String, PPassword: String, PName: String) {
         
         self.PID = PID
         self.PRFID = PRFID

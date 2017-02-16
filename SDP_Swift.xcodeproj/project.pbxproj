@@ -15,10 +15,6 @@
 		01B9C8E61DC6718600FDE7BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B9C8E41DC6718600FDE7BB /* LaunchScreen.storyboard */; };
 		01B9C8F11DC6718600FDE7BB /* SDP_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9C8F01DC6718600FDE7BB /* SDP_SwiftTests.swift */; };
 		01B9C8FC1DC6718600FDE7BB /* SDP_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9C8FB1DC6718600FDE7BB /* SDP_SwiftUITests.swift */; };
-		B760ADC01DF886E600C82ABB /* 14045578_10209641916020753_5811974679750493562_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B760ADBC1DF886E600C82ABB /* 14045578_10209641916020753_5811974679750493562_n.jpg */; };
-		B760ADC11DF886E600C82ABB /* doctor.png in Resources */ = {isa = PBXBuildFile; fileRef = B760ADBD1DF886E600C82ABB /* doctor.png */; };
-		B760ADC21DF886E600C82ABB /* hospital_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B760ADBE1DF886E600C82ABB /* hospital_logo.png */; };
-		B760ADC31DF886E600C82ABB /* nurse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B760ADBF1DF886E600C82ABB /* nurse.jpg */; };
 		B76C467E1DF35CB2005C9141 /* GetAllPatients.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76C467D1DF35CB2005C9141 /* GetAllPatients.swift */; };
 		B76C46801DF35F0F005C9141 /* ShowAllPatients.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76C467F1DF35F0F005C9141 /* ShowAllPatients.swift */; };
 /* End PBXBuildFile section */
@@ -56,10 +52,6 @@
 		01B9C8F71DC6718600FDE7BB /* SDP_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDP_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B9C8FB1DC6718600FDE7BB /* SDP_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDP_SwiftUITests.swift; sourceTree = "<group>"; };
 		01B9C8FD1DC6718600FDE7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B760ADBC1DF886E600C82ABB /* 14045578_10209641916020753_5811974679750493562_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 14045578_10209641916020753_5811974679750493562_n.jpg; path = "../../SDP pics/14045578_10209641916020753_5811974679750493562_n.jpg"; sourceTree = "<group>"; };
-		B760ADBD1DF886E600C82ABB /* doctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = doctor.png; path = "../../SDP pics/doctor.png"; sourceTree = "<group>"; };
-		B760ADBE1DF886E600C82ABB /* hospital_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hospital_logo.png; path = "../../SDP pics/hospital_logo.png"; sourceTree = "<group>"; };
-		B760ADBF1DF886E600C82ABB /* nurse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nurse.jpg; path = "../../SDP pics/nurse.jpg"; sourceTree = "<group>"; };
 		B76C467D1DF35CB2005C9141 /* GetAllPatients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAllPatients.swift; sourceTree = "<group>"; };
 		B76C467F1DF35F0F005C9141 /* ShowAllPatients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowAllPatients.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,10 +104,6 @@
 		01B9C8DA1DC6718600FDE7BB /* SDP_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				B760ADBC1DF886E600C82ABB /* 14045578_10209641916020753_5811974679750493562_n.jpg */,
-				B760ADBD1DF886E600C82ABB /* doctor.png */,
-				B760ADBE1DF886E600C82ABB /* hospital_logo.png */,
-				B760ADBF1DF886E600C82ABB /* nurse.jpg */,
 				01B9C8DB1DC6718600FDE7BB /* AppDelegate.swift */,
 				01B9C8DF1DC6718600FDE7BB /* Main.storyboard */,
 				01B9C8E21DC6718600FDE7BB /* Assets.xcassets */,
@@ -256,12 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B760ADC21DF886E600C82ABB /* hospital_logo.png in Resources */,
-				B760ADC11DF886E600C82ABB /* doctor.png in Resources */,
 				01B9C8E61DC6718600FDE7BB /* LaunchScreen.storyboard in Resources */,
 				01B9C8E31DC6718600FDE7BB /* Assets.xcassets in Resources */,
-				B760ADC31DF886E600C82ABB /* nurse.jpg in Resources */,
-				B760ADC01DF886E600C82ABB /* 14045578_10209641916020753_5811974679750493562_n.jpg in Resources */,
 				01B9C8E11DC6718600FDE7BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
